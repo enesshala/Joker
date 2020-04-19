@@ -120,7 +120,12 @@ header .toggle img
 	background: url(../img/joker.png);
 	background-size: cover;
 	cursor: pointer;
+	transition: .5s ease-in-out;
 	animation: animate 25s linear infinite;
+}
+
+.slide:hover{
+	height: 400px;
 }
 
 @keyframes animate{
